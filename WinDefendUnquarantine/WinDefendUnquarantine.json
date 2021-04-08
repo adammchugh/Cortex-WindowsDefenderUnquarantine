@@ -1,0 +1,26 @@
+{
+  "author": "Adam McHugh",
+  "baseConfig": "windefendunquarantine",
+  "command": "WinDefendUnquarantine/WinDefendUnquarantine.py",
+  "config": {
+    "service": "get"
+  },
+  "configurationItems": [
+    {
+      "defaultValue": 60,
+      "description": "Sleeping time before analysis (in seconds)",
+      "multi": false,
+      "name": "delay",
+      "required": false,
+      "type": "number"
+    }
+  ],
+  "dataTypeList": [
+    "file"
+  ],
+  "description": "WinDefendUnquarantine Cortex Analyzer",
+  "license": "MIT",
+  "name": "template",
+  "url": "https://gist.github.com/OALabs/30346d78a1fccf59d6bfafab42fbee5e",
+  "version": "0.0.1"
+}
