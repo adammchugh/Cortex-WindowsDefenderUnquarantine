@@ -1,4 +1,4 @@
-FROM python:3.8.1-alpine3.11
+FROM python:3.11.0a7-slim
 LABEL maintainer=ghislain.bernard@gmail.com
 
 WORKDIR /analyzer
